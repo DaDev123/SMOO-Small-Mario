@@ -423,7 +423,7 @@ bool hakoniwaSequenceHook(HakoniwaSequence* sequence) {
         }
     }
 
-else if (al::isPadHoldZR(-1)) {
+else if (al::isPadHoldZL(-1)) {
    if (al::isPadTriggerUp(-1)) switch(curSize){
         case NORMAL:
             scale = 1.f;
